@@ -16,4 +16,5 @@ Run the application:
 python manage.py runserver
 ```
 
-Open admin panel: http://127.0.0.1:8000/admin. Use admin user credentials (login: fitness_user, password: fitnesskit123). 
+Open admin panel: http://127.0.0.1:8000/admin. Under admin account you can edit lessons and teachers in database. 
+To see lessons API data open page:  http://127.0.0.1:8000/api/lessons/.
