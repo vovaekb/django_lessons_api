@@ -13,12 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-#from lessons import views
+# from lessons import views
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework.routers import  DefaultRouter
-from rest_framework.schemas import get_schema_view
-from rest_framework.documentation import include_docs_urls
+# from rest_framework.routers import  DefaultRouter
+# from rest_framework.schemas import get_schema_view
+# from rest_framework.documentation import include_docs_urls
 
 '''
 router = DefaultRouter()
@@ -30,7 +30,7 @@ schema_view = get_schema_view(title='Group Lessons API',
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('lessons.urls')), # router.urls)),
-    #path('schema/', schema_view),
-    #path('docs/', include_docs_urls(title='Group Lessons API'))
+    path('api/', include('lessons.urls')),   # router.urls)),
+    # path('schema/', schema_view),
+    # path('docs/', include_docs_urls(title='Group Lessons API'))
 ]

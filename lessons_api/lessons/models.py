@@ -1,10 +1,12 @@
 from django.db import models
 
+
 class Teacher(models.Model):
     short_name = models.CharField(max_length=50)
     name = models.CharField(max_length=100)
     position = models.CharField(max_length=100)
     imageUrl = models.URLField(max_length=200)
+
 
 class Lessons(models.Model):
     name = models.CharField(max_length=100)
