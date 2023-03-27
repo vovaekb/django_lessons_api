@@ -1,5 +1,5 @@
 # django_lessons_api
-Simple REST API application on Python Django REST Framework.
+:books: Simple REST API application on Python Django REST Framework.
 
 Features:
 - admin panel with ability to edit lessons detail
